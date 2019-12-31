@@ -1,4 +1,4 @@
-<te7mplate>
+<template>
   <el-breadcrumb class="app-breadcrumb" separator="/">
     <transition-group name="breadcrumb">
       <el-breadcrumb-item v-for="(item,index) in levelList" :key="item.path">
@@ -7,7 +7,7 @@
       </el-breadcrumb-item>
     </transition-group>
   </el-breadcrumb>
-</te7mplate>
+</template>
 
 <script>
 import pathToRegexp from 'path-to-regexp'
